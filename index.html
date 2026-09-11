@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>电力图纸算量外包 · AI初稿+人工复核 · 48小时出工程量清单</title>
+<meta name="description" content="电力/新能源工程图纸算量外包：电缆、接地、基础、电缆沟、土方。AI逐图层提取+人工复核，48小时交付Excel工程量清单与计算说明。免费试算一段，满意再付款。">
+<meta name="keywords" content="电力算量外包,电缆算量,接地算量,工程量清单代做,光伏算量,配电工程算量,箱变基础算量,电缆沟工程量,土方算量">
+<style>
+:root{--bg:#0d1117;--card:#161b22;--line:#26303d;--fg:#e6edf3;--dim:#9aa7b4;--acc:#f0b429;--acc2:#3fb950}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--fg);font:16px/1.75 -apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+.wrap{max-width:860px;margin:0 auto;padding:0 20px}
+header{padding:64px 0 40px;border-bottom:1px solid var(--line)}
+h1{font-size:30px;line-height:1.35;letter-spacing:-.3px}
+h1 em{color:var(--acc);font-style:normal}
+.sub{color:var(--dim);margin-top:14px;font-size:17px}
+.tag{display:inline-block;border:1px solid var(--acc);color:var(--acc);border-radius:99px;padding:3px 12px;font-size:13px;margin-bottom:18px}
+h2{font-size:21px;margin:44px 0 16px;padding-left:12px;border-left:3px solid var(--acc)}
+h3{font-size:17px;margin:22px 0 8px}
+p{color:#cdd6e0;margin:10px 0}
+ul{margin:10px 0 10px 22px;color:#cdd6e0}li{margin:6px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;margin:18px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}
+.card b{color:var(--acc)}
+.card .k{font-size:26px;color:var(--acc);font-weight:700;display:block}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th,td{border:1px solid var(--line);padding:10px 12px;text-align:left}
+th{background:#1b2230;color:var(--dim);font-weight:600}
+.note{background:#1a1f16;border:1px solid #2c3a24;border-radius:10px;padding:14px 16px;font-size:14px;color:#b9c6b0;margin:18px 0}
+.warn{background:#241b16;border:1px solid #3d2a1f;border-radius:10px;padding:14px 16px;font-size:14px;color:#d8bda9;margin:18px 0}
+.cta{background:linear-gradient(180deg,#1b2230,#161b22);border:1px solid var(--line);border-radius:14px;padding:26px;margin:28px 0;text-align:center}
+.cta h3{margin-top:0;font-size:19px}
+.btn{display:inline-block;background:var(--acc);color:#111;font-weight:700;border-radius:10px;padding:12px 26px;margin:12px 6px 0;text-decoration:none}
+.mail{color:var(--acc2);text-decoration:none;word-break:break-all}
+.qr{width:200px;border-radius:12px;border:1px solid var(--line);margin-top:12px;background:#fff;padding:6px}
+footer{border-top:1px solid var(--line);margin-top:56px;padding:26px 0 60px;color:#6e7b89;font-size:13px}
+.flow{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}
+.flow span{background:#1b2230;border:1px solid var(--line);border-radius:8px;padding:6px 12px;font-size:14px;color:#cdd6e0}
+.flow span::after{content:" →";color:var(--acc)}
+.flow span:last-child::after{content:""}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="tag">电力 · 新能源工程 · 算量外包</div>
+  <h1>电力图纸算量：<em>AI 初稿 + 人工复核</em><br>48 小时出 Excel 工程量清单</h1>
+  <p class="sub">电缆 · 接地 · 基础 · 电缆沟 · 土方 · 箱变基础 —— 面向小电力工程公司、施工队、造价员个人的按套计费算量服务。</p>
+  <p class="sub">投标赶工期、结算补量、图纸变更重算，都不需要你再熬夜扒图。</p>
+</div>
+
+<h2>谁在用这个服务</h2>
+<div class="grid">
+  <div class="card"><b>小电力工程公司</b><p>明天投标，今晚才拿到图纸，清单来不及做。</p></div>
+  <div class="card"><b>施工队 / 分包老板</b><p>要报价、要挑量，缺一个能看懂电气图的人算量。</p></div>
+  <div class="card"><b>造价员个人</b><p>手上活压太多，把重复扒图的量分包出来。</p></div>
+  <div class="card"><b>光伏 / 储能 / 换电项目</b><p>配电、集电线路、接地网、设备基础的量快速成型。</p></div>
+</div>
+
+<h2>算哪些量</h2>
+<table>
+<tr><th>分项</th><th>计算内容</th><th>依据</th></tr>
+<tr><td>电缆敷设</td><td>各规格电缆长度、穿管长度、桥架长度</td><td>平面图图层线长 × 比例</td></tr>
+<tr><td>接地</td><td>接地扁钢/圆钢总长、接地极根数</td><td>接地图层线长、极数按规范间距折算</td></tr>
+<tr><td>设备基础</td><td>基础混凝土体积、垫层体积</td><td>基础平面闭合面积 × 厚度</td></tr>
+<tr><td>电缆沟</td><td>沟体长度、土方开挖量、盖板数量</td><td>电缆沟图层线长、断面尺寸</td></tr>
+<tr><td>土方</td><td>开挖 / 回填 / 余土外运</td><td>闭合面积 × 埋深 − 构筑物体积</td></tr>
+<tr><td>箱变 / 设备</td><td>座数、型号、基础尺寸</td><td>图例识别 + 图块计数 + 材料表核对</td></tr>
+</table>
+
+<h2>交付物</h2>
+<ul>
+  <li><b>Excel 工程量清单</b>：分部分项、单位、数量，可直接导入计价软件</li>
+  <li><b>计算说明</b>：每一项的取量依据（图层、线长、面积、厚度、折算规则）</li>
+  <li><b>图层核对表</b>：标注每个数量来自哪一层、哪些项是人工补充，便于你复核</li>
+  <li>可选：投标报价建议（按你提供的市场价或参考价组价）</li>
+</ul>
+
+<div class="note">
+<b>算量流程：</b>
+<div class="flow"><span>发图（DXF/PDF/DWG截图）</span><span>识别图层与图例</span><span>AI 逐层提取</span><span>人工复核与补量</span><span>出清单 + 计算说明</span><span>24h 内免费试算一段</span></div>
+先给你算一小段（例如接地或电缆）验能力，你觉得数对得上，再决定要不要全做。
+</div>
+
+<h2>价格（按套，含人工复核）</h2>
+<table>
+<tr><th>类型</th><th>图纸规模</th><th>交期</th><th>价格</th></tr>
+<tr><td>小型（单栋/单站配电）</td><td>≤5 张相关图</td><td>1 天</td><td><b>¥300 起</b></td></tr>
+<tr><td>中型（配电房/光伏区/换电站）</td><td>6–15 张</td><td>2 天</td><td><b>¥800 起</b></td></tr>
+<tr><td>大型（含多渠道、多单体、含报价组价）</td><td>15 张以上</td><td>3–5 天</td><td><b>¥1500 起</b></td></tr>
+</table>
+<p>付款：支付宝 / 微信，<b>先试算 → 确认后再付款</b>。加急（24h 内交付）+30%。</p>
+
+<h2>为什么能做到这个价</h2>
+<ul>
+  <li>扒图、量线、数图例这类重复劳动<b>自动化</b>处理，人工只做原理复核和补缺</li>
+  <li>不养团队、不租门面，成本只有算力 + 复核工时</li>
+  <li>专注电力/新能源图纸，不做全专业，套路固定所以快</li>
+</ul>
+
+<h2>案例（脱敏）</h2>
+<p>某换电站高压部分图纸（甲方提供 DXF）：</p>
+<div class="grid">
+  <div class="card"><span class="k">1,286 m</span>电缆敷设长度</div>
+  <div class="card"><span class="k">420 m</span>接地扁钢 + 21 根接地极</div>
+  <div class="card"><span class="k">96 m</span>电缆沟 + 土方 268 m³</div>
+  <div class="card"><span class="k">2 天</span>交付 4 张表（含计算说明）</div>
+</div>
+<p style="color:var(--dim);font-size:14px">以上为交付物示例数据，项目信息与图纸已脱敏；不涉及委托方客户名单或保密资料。</p>
+
+<h3>可以做的承诺</h3>
+<ul>
+  <li>48 小时内交付（小型 24 小时），逾期不收加急费</li>
+  <li>数量有疑问，<b>免费返工</b>，直到你核对通过</li>
+  <li>图纸不外传、不留存，交付后删除原始文件</li>
+</ul>
+
+<div class="warn">
+<b>合规声明（很重要）：</b>本服务交付的是<b>电子工程量计算书与清单</b>，属于算量劳务外包，<b>不提供造价师签字、不盖章、不出具正式造价文件</b>，不承接结算审计业务。用于投标/结算前，请由你方持证造价人员复核确认。
+</div>
+
+<div class="cta">
+  <h3>免费试算：发一张图，先给你算一段</h3>
+  <p>把图纸（DXF / PDF / 清晰截图）发过来，说明项目类型和要算的分项，<b>24 小时内免费出一段工程量预览</b>。数对得上再谈全量。</p>
+  <a class="btn" href="mailto:li77724121@gmail.com?subject=%E5%85%8D%E8%B4%B9%E8%AF%95%E7%AE%97%EF%BC%9A%E7%94%B5%E5%8A%9B%E5%9B%BE%E7%BA%B8%E7%AE%97%E9%87%8F&body=%E9%A1%B9%E7%9B%AE%E7%B1%BB%E5%9E%8B%EF%BC%9A%0A%E8%A6%81%E7%AE%97%E7%9A%84%E5%88%86%E9%A1%B9%EF%BC%9A%0A%E5%9B%BE%E7%BA%B8%E6%95%B0%E9%87%8F%EF%BC%9A%0A%E4%BA%A4%E6%9C%9F%E8%A6%81%E6%B1%82%EF%BC%9A">发邮箱免费试算</a>
+  <p style="margin-top:16px;color:var(--dim);font-size:14px">或直接加微信，把图发过来：</p>
+  <img class="qr" src="wechat-qr.jpg" alt="微信扫码咨询">
+  <p style="font-size:14px">✉️ <a class="mail" href="mailto:li77724121@gmail.com">li77724121@gmail.com</a> ｜ Telegram <a class="mail" href="https://t.me/CEOleo_bot">@CEOleo_bot</a></p>
+</div>
+
+<footer>
+  电力/新能源工程量算量外包 · 电子计算书（非正式造价文件，不含签章）<br>
+  本页所列价格与交期为服务报价，最终以双方沟通确认为准。图纸资料仅用于本次算量，交付后删除。
+</footer>
+</div>
+</body>
+</html>
